@@ -1,6 +1,6 @@
 # preev-in-menubar
 
-![Screenshot](https://bit.ly/2bWPCovbit.ly/2bWP)
+![Screenshot](https://www.dropbox.com/s/bi93ufx5kghiqd3/github_menubar_electron.jpg?raw=0)
 
 This makes [preev.com](http://preev.com) quickly available in your menubar.
 preev is a simple bitcoin converter website that let's you calculate BTC to other currencies.
