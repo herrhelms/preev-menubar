@@ -1,3 +1,2 @@
-'use strict';
 const menubar = require('menubar')
-var mb = menubar({preloadWindow:true})
+let mb = menubar({dir: __dirname, icon: __dirname + '/Icon.png', showDockIcon: false, preloadWindow:true})
