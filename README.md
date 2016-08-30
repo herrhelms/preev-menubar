@@ -14,9 +14,7 @@ Do you have `electron` installed? [Learn more about electron](https://github.com
  - Only once you need to `npm install` the get the dependencies (electron, menubar)
  - `npm start` will run this menubar item in the background. (You can close & exit your Terminal afterwards)
 
-
-Since this is only hacked together in a half an hour. I have yet to research how to add and support a native build process.
-For now you'll have to redo the last step after you reboot your computer or logout from it.
+ - `npm build` will build this for OSX(64bit) - the files reside in a dist subdirectory
 
 ###Thank you's
 Kudos to [@electron](https://github.com/electron/) and [@maxogden](https://github.com/maxogden) for his great [menubar](https://github.com/maxogden/menubar) package - plus of course the people that built & maintain preev.com.
