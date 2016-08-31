@@ -1,6 +1,6 @@
 {
   "name": "preev-menubar",
-  "productName": "Preev Menubar Item",
+  "productName": "PreevApp",
   "version": "0.0.1",
   "description": "preev.com in your menubar",
   "license": "MIT",
@@ -14,15 +14,15 @@
   "electronVersion": "1.3.4",
   "scripts": {
     "start": "electron . &",
-    "build": "electron-packager ./ --platform=darwin --arch=x64 --out=./dist --version=$npm_package_electronVersion"
+    "build": "electron-packager . --platform=darwin --icon=Icon --arch=x64 --out=dist PreevApp"
   },
   "dependencies": {
-    "electron-debug": "^1.0.1",
-    "menubar": "^5.1.0"
+    "menubar": "^5.1.0",
+    "electron": "^1.3.4"
   },
   "devDependencies": {
     "electron-packager": "^7.7.0",
-    "electron": "^1.3.4"
+    "electron-debug": "^1.0.1"
   },
   "files": [
     "index.js",
