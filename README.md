@@ -16,11 +16,14 @@ Do you have `electron` installed? [Learn more about electron](https://github.com
  - `npm start` will run this menubar app in the background. You can close & exit your Terminal.app window
 
 ###Compiling
-`npm build` should work and build this for OSX(64bit) in a /dist subdirectory but I did not test. Ensure you have electron-packager (v7.7.0+) available on your system or install it globally with `npm install -g electron-packager`. 
+`npm build` should work and build this for OSX(64bit) in a /dist subdirectory but I did not test. Ensure you have electron-packager (v7.7.0+) available on your system or install it globally with `npm install -g electron-packager`.
 
 `electron-packager . --platform=darwin --icon=Icon --arch=x64 --out=dist PreevApp` will compile to your machine. Look inside the `dist` directory for `PreevApp`.
 
 I've uploaded a [zipped version 0.0.1 of PreevApp](https://bit.ly/2bAhEcp) to Dropbox.
+
+###How to quit this thing?
+Click on the menubar item so that the apps window is visible. Use the common shortcut for closing an app. (e.g. `CMD+Q` on osX/macOS)
 
 ###Thank you's
 Kudos to [@electron](https://github.com/electron/) and [@maxogden](https://github.com/maxogden) for his great [menubar](https://github.com/maxogden/menubar) package - plus of course the people that built & maintain preev.com - you know who you are.
